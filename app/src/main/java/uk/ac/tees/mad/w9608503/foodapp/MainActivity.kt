@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             FoodAppTheme {
                 // A surface container using the 'background' color from the theme
+                // Adding more code to this app.
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
