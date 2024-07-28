@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'uk.ac.tees.mad.w9608503.foodapp'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "uk.ac.tees.mad.w9608503.foodapp"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
