@@ -1,4 +1,4 @@
-package uk.ac.tees.mad.w9617154.foodapp.views.login
+package uk.ac.tees.mad.w9608503.foodapp.views.login
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.Tab
@@ -14,7 +14,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavController
-import uk.ac.tees.mad.w9617154.foodapp.viewModel.LoginViewModel
+import uk.ac.tees.mad.w9608503.foodapp.viewModel.LoginViewModel
 
 @Composable
 fun TabsView(navController: NavController,loginViewModel: LoginViewModel) {

@@ -1,4 +1,4 @@
-package uk.ac.tees.mad.w9617154.foodapp.views.login
+package uk.ac.tees.mad.w9608503.foodapp.views.login
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -22,8 +22,8 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import uk.ac.tees.mad.w9617154.foodapp.components.Alert
-import uk.ac.tees.mad.w9617154.foodapp.viewModel.LoginViewModel
+import uk.ac.tees.mad.w9608503.foodapp.components.Alert
+import uk.ac.tees.mad.w9608503.foodapp.viewModel.LoginViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

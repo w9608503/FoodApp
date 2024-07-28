@@ -1,4 +1,4 @@
-package uk.ac.tees.mad.w9617154.foodapp
+package uk.ac.tees.mad.w9608503.foodapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,9 +8,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import uk.ac.tees.mad.w9617154.foodapp.navigation.NavManager
-import uk.ac.tees.mad.w9617154.foodapp.theme.MyJornalFirebaseTheme
-import uk.ac.tees.mad.w9617154.foodapp.viewModel.LoginViewModel
+import uk.ac.tees.mad.w9608503.foodapp.navigation.NavManager
+import uk.ac.tees.mad.w9608503.foodapp.theme.MyJornalFirebaseTheme
+import uk.ac.tees.mad.w9608503.foodapp.viewModel.LoginViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
