@@ -1,4 +1,4 @@
-package com.example.recipeapp
+package uk.ac.tees.mad.w9608503.foodapp.food
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -8,9 +8,9 @@ private val retrofit = Retrofit.Builder().baseUrl("https://www.themealdb.com/api
     .addConverterFactory(GsonConverterFactory.create())
     .build()
 
-    val recipeService = retrofit.create(ApiService::class.java)
+    val recipeService: ApiService = retrofit.create(ApiService::class.java)
 
 interface ApiService{
     @GET("categories.php")
-    suspend fun getCategories():CategoriesResponse
+    suspend fun getCategories(): CategoriesResponse
 }

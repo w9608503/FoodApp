@@ -1,4 +1,4 @@
-package uk.ac.tees.mad.w9608503.foodapp.model
+package uk.ac.tees.mad.w9608503.foodapp.viewModel
 
 data class UserModel(
 

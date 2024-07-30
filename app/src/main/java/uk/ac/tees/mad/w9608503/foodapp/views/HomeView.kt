@@ -1,4 +1,4 @@
-package uk.ac.tees.mad.w9608503.foodapp.views.recipies
+package uk.ac.tees.mad.w9608503.foodapp.views
 
 
 import androidx.compose.material3.ExperimentalMaterial3Api

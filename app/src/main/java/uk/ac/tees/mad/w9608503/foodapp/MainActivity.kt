@@ -9,7 +9,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import uk.ac.tees.mad.w9608503.foodapp.navigation.NavManager
-import uk.ac.tees.mad.w9608503.foodapp.theme.MyJornalFirebaseTheme
+import uk.ac.tees.mad.w9608503.foodapp.theme.FoodAppTheme
 import uk.ac.tees.mad.w9608503.foodapp.viewModel.LoginViewModel
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         val loginViewModel : LoginViewModel by viewModels()
 
         setContent {
-            MyJornalFirebaseTheme {
+            FoodAppTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),

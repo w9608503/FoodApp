@@ -9,11 +9,11 @@ import androidx.navigation.compose.rememberNavController
 import uk.ac.tees.mad.w9608503.foodapp.viewModel.LoginViewModel
 import uk.ac.tees.mad.w9608503.foodapp.views.login.BlankView
 import uk.ac.tees.mad.w9608503.foodapp.views.login.TabsView
-import uk.ac.tees.mad.w9608503.foodapp.views.recipies.HomeView
-import com.example.recipeapp.Category
-import com.example.recipeapp.CategoryDetailScreen
-import com.example.recipeapp.MainViewModel
-import com.example.recipeapp.RecipeScreen
+import uk.ac.tees.mad.w9608503.foodapp.views.HomeView
+import uk.ac.tees.mad.w9608503.foodapp.food.Category
+import uk.ac.tees.mad.w9608503.foodapp.food.CategoryDetailScreen
+import uk.ac.tees.mad.w9608503.foodapp.food.MainViewModel
+import uk.ac.tees.mad.w9608503.foodapp.food.RecipeScreen
 
 @Composable
 fun NavManager(loginViewModel: LoginViewModel) {

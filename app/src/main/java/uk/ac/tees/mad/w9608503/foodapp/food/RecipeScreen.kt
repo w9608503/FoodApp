@@ -1,4 +1,4 @@
-package com.example.recipeapp
+package uk.ac.tees.mad.w9608503.foodapp.food
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -32,7 +32,7 @@ import coil.compose.rememberAsyncImagePainter
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun RecipeScreen(navController: NavController, modifier: Modifier = Modifier, viewState:MainViewModel.RecipeState, navigateToDetail: (Category) -> Unit){
+fun RecipeScreen(navController: NavController, modifier: Modifier = Modifier, viewState: MainViewModel.RecipeState, navigateToDetail: (Category) -> Unit){
     val recipeViewModel: MainViewModel = viewModel()
     Scaffold(
         topBar = {

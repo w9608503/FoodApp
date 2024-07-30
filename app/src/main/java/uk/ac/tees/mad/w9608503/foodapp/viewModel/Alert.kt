@@ -1,4 +1,4 @@
-package uk.ac.tees.mad.w9608503.foodapp.components
+package uk.ac.tees.mad.w9608503.foodapp.viewModel
 
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll

@@ -1,4 +1,4 @@
-package com.example.recipeapp
+package uk.ac.tees.mad.w9608503.foodapp.food
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

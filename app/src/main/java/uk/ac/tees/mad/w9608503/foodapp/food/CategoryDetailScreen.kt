@@ -1,4 +1,4 @@
-package com.example.recipeapp
+package uk.ac.tees.mad.w9608503.foodapp.food
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column

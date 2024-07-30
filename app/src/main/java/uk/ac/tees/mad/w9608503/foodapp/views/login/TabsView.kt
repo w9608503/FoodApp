@@ -20,13 +20,12 @@ import uk.ac.tees.mad.w9608503.foodapp.viewModel.LoginViewModel
 fun TabsView(navController: NavController,loginViewModel: LoginViewModel) {
 
     var selectedTab by remember { mutableStateOf(0) }
-    val tabs = listOf("Login","Register","ForgotPassword")
+    val tabs = listOf("SignIn","SignUp","ResetPassword")
 
     Column {
         TabRow(
             selectedTabIndex = selectedTab,
             contentColor = Color.Black,
-            //containerColor = Color.LightGray,
             indicator = { tabPositions ->
                 TabRowDefaults.Indicator(
                     Modifier.tabIndicatorOffset(tabPositions[selectedTab])

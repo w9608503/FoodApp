@@ -22,7 +22,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import uk.ac.tees.mad.w9608503.foodapp.components.Alert
+import uk.ac.tees.mad.w9608503.foodapp.viewModel.Alert
 import uk.ac.tees.mad.w9608503.foodapp.viewModel.LoginViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
