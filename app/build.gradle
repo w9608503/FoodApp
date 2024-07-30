@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'uk.ac.tees.mad.w9608503.foodapp'
+    namespace 'uk.ac.tees.mad.w9608503.recipeapp'
     compileSdk 34
 
     defaultConfig {
-        applicationId "uk.ac.tees.mad.w9608503.foodapp"
+        applicationId "uk.ac.tees.mad.w9608503.recipeapp"
         minSdk 24
         targetSdk 34
         versionCode 1
@@ -66,12 +66,8 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
-
-
     implementation("androidx.navigation:navigation-compose:2.7.4")
-
     implementation ("androidx.constraintlayout:constraintlayout-compose:1.0.1")
-
     implementation("com.google.firebase:firebase-firestore-ktx:25.0.0")
     implementation("com.google.firebase:firebase-auth-ktx:23.0.0")
     implementation("com.google.firebase:firebase-storage-ktx:21.0.0")
@@ -81,7 +77,6 @@ dependencies {
     implementation ("at.favre.lib:bcrypt:0.9.0")
     implementation("androidx.compose.material3:material3:1.3.0-beta04")
     implementation ("androidx.compose.material:material:1.6.8")
-
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation ("com.google.code.gson:gson:2.10.1")
