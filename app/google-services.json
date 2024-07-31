@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "448380261339",
+    "project_id": "foodapp-3ec25",
+    "storage_bucket": "foodapp-3ec25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448380261339:android:e7868fb9a845cfebca8dfe",
+        "android_client_info": {
+          "package_name": "uk.ac.tees.mad.w9608503.foodapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJqtTJWEnwAgMnEkg5GXeMYwqgZToL6Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448380261339:android:319d75168a4b4bfcca8dfe",
+        "android_client_info": {
+          "package_name": "uk.ac.tees.mad.w9608503.recipeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJqtTJWEnwAgMnEkg5GXeMYwqgZToL6Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
